@@ -1,3 +1,5 @@
+/**
+ */
 // jumping & gravity
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (kittyCat.isHittingTile(CollisionDirection.Bottom)) {
